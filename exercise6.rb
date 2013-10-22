@@ -9,9 +9,15 @@ grocery_list << "rice"
 
 print_list(grocery_list)
 puts grocery_list.length
+
 if grocery_list.include?("banbanas")
   puts"You need to pick up bananas."
 else
   puts"You don't need to pick up banbanas today."
 end
 
+puts grocery_list[1]
+puts grocery_list.sort
+
+grocery_list.delete("salmon")
+puts grocery_list
